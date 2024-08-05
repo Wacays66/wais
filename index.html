@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile">
+        <h1>User Profile</h1>
+        <img src="wais.jpg" alt="Profile Picture" id="profile-pic">
+        <div>
+            <label>Name: </label>
+            <span id="name">Wais Hussein</span>
+            <input type="text" id="name-input" value="Wais Hussein">
+        </div>
+        <div>
+            <label>Email: </label>
+            <span id="email">waisnet198@gmail.com</span>
+            <input type="email" id="email-input" value="waisnet198@gmail.com">
+        </div>
+        <div>
+            <label>Interests: </label>
+            <span id="interests">DevOps Engineer</span>
+            <input type="text" id="interests-input" value="DevOps Engineer">
+        </div>
+        <button id="edit-btn">Edit Profile</button>
+        <button id="save-btn" style="display: none;">Save Profile</button>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+</html>
